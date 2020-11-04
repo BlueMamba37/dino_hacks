@@ -2,8 +2,8 @@
 T-Rex Dino Chrome Hacks
 
 ## Usage
-1. Paste at [Dino's](chrome://dino) Console
-2. Execute
+    1. Paste at [Dino's](chrome://dino) Console
+    2. Execute
 > 'Ctrl + Shift + I' for Console access
 
 ## [Contributing](https://github.com/mstr-Wolf/chrome_dino_hacks/issues)
