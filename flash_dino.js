@@ -11,11 +11,11 @@ function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_s
 
     if (score_sound == false) {
         Runner().soundFx.SCORE = "";
-    } else if (score_sound == true) {}
+    }
 
     if (permanent_night_mode == true){
         Runner.prototype.invert = function(){};
-    } else if (permanent_night_mode == false) {}
+    }
 
     //easter-egg (press key down)
     Runner.prototype.onKeyUp = function(){};
