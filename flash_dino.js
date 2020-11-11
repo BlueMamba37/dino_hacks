@@ -2,6 +2,7 @@
 //if you're trying to get killed by cactuses and birds
 org_gameOver = Runner.prototype.gameOver;
 
+//flash_dino(250, 500);
 function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_sound=false) {
     //immortality
     Runner.prototype.gameOver = function(){};
