@@ -1,8 +1,7 @@
 //Runner.prototype.gameOver = org_gameOver
 //if you're trying to get killed by cactuses and birds
-org_gameOver = Runner.prototype.gameOver;
+//org_gameOver = Runner.prototype.gameOver;
 
-//flash_dino(250, 500);
 function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_sound=false) {
     //immortality
     Runner.prototype.gameOver = function(){};
@@ -21,3 +20,6 @@ function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_s
     //easter-egg (press key down)
     Runner.prototype.onKeyUp = function(){};
 }
+
+//Runner().saveHighScore(param);
+//param: Runner().distanceRan || 999999950 (maximum)
