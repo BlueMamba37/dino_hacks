@@ -3,6 +3,9 @@
 //org_gameOver = Runner.prototype.gameOver;
 
 function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_sound=false) {
+    //sets higher score
+    Runner().saveHighScore(999999950);
+
     //immortality
     Runner.prototype.gameOver = function(){};
 
@@ -20,6 +23,3 @@ function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_s
     //easter-egg (press key down)
     Runner.prototype.onKeyUp = function(){};
 }
-
-//Runner().saveHighScore(param);
-//param: Runner().distanceRan || 999999950 (maximum)
