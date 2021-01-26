@@ -8,5 +8,3 @@ T-Rex Dino Chrome Hacks
 > 'Ctrl + Shift + I' for Console access
 
 ## [License](https://github.com/mstr-Wolf/chrome_dino_hacks/blob/master/LICENSE)
-
-## [Contact](https://github.com/mstr-Wolf/mstr-Wolf)
