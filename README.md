@@ -7,4 +7,5 @@ T-Rex Dino Chrome Hacks
     2. Execute
 > 'Ctrl + Shift + I' for Console access
 
-## [License](https://github.com/mstr-Wolf/chrome_dino_hacks/blob/master/LICENSE)
+## Original Repo
+[Click me](https://github.com/sourcerer0/sourcery)
