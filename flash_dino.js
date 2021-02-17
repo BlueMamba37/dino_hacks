@@ -1,4 +1,4 @@
-function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_sound=false) {
+function flash_dino(acceleration = 200, max_speed = 450, permanent_night_mode = true,score_sound=false) {
     //sets higher score
     Runner().saveHighScore(999999950);
 
