@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Dino Hacks",
+    "version": "1.0.0",
+
+    "description": "T-Rex Game Hacks",
+    "author": "https://github.com/sourcerer0",
+    "homepage_url": "https://github.com/sourcerer0/dino_hacks"
+}

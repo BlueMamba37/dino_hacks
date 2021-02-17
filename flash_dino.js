@@ -1,8 +1,4 @@
-//Runner.prototype.gameOver = org_gameOver
-//if you're trying to get killed by cactuses and birds
-//org_gameOver = Runner.prototype.gameOver;
-
-function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_sound=false) {
+function flash_dino(acceleration = 200, max_speed = 450, permanent_night_mode = true,score_sound=false) {
     //sets higher score
     Runner().saveHighScore(999999950);
 
@@ -21,5 +17,7 @@ function flash_dino(acceleration, max_speed, permanent_night_mode = true,score_s
     }
 
     //easter-egg (press key down)
-    Runner.prototype.onKeyUp = function(){};
+    //Runner.prototype.onKeyUp = function(){};
 }
+
+flash_dino(200,450);
