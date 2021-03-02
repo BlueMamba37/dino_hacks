@@ -6,4 +6,4 @@ T-Rex Game Hacks
     2. Execute
 
 ## Original Repo
-[Click me](https://github.com/sourcerer0/sourcery)
+[Click me](https://github.com/elleaech/sourcery)
