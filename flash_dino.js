@@ -1,4 +1,4 @@
-function flash_dino(acceleration = 200, max_speed = 450, permanent_night_mode = true,score_sound=false) {
+function flash_dino(acceleration = 120, max_speed = 450, permanent_night_mode = true, score_sound=false) {
     //sets higher score
     Runner().saveHighScore(999999950);
 
@@ -16,8 +16,8 @@ function flash_dino(acceleration = 200, max_speed = 450, permanent_night_mode = 
         Runner.prototype.invert = function(){};
     }
 
-    //easter-egg (press key down)
-    //Runner.prototype.onKeyUp = function(){};
+    //keep dino's head down
+    Runner.prototype.onKeyUp = function(){};
 }
 
-flash_dino(200,450);
+flash_dino();
